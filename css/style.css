@@ -1,0 +1,26 @@
+body {
+    margin: 0; 
+}
+
+.top-container {
+    background-color: #CEEDC7;
+    border: solid 10px;
+    padding: 20px;
+}
+
+.bottom-container {
+    background-color: blue;
+    margin-left: 500px;
+    border: 10px solid;
+}
+
+.middle-container {
+    background-color: red;
+    margin-left: 260px;
+    border: 20px solid;
+}
+
+.twoXtwo-hunderd-pixel-box {
+    height: 200px;
+    width: 200px;
+}
