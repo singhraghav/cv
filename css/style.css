@@ -1,26 +1,34 @@
 body {
-    margin: 0; 
+    margin: 0;
+    text-align: center; 
+    font-family: verdana, sans-serif;
+    font-size: 30px;
 }
 
 .top-container {
     background-color: #CEEDC7;
-    border: solid 10px;
-    padding: 20px;
+    position: relative;
+    padding-top: 100px;
 }
 
-.bottom-container {
-    background-color: blue;
-    margin-left: 500px;
-    border: 10px solid;
+#second-cloud-pic {
+    position: absolute;
+    bottom: 300px;
+    left: 300px;
 }
 
-.middle-container {
-    background-color: red;
-    margin-left: 260px;
-    border: 20px solid;
+#first-cloud-pic {
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
 
-.twoXtwo-hunderd-pixel-box {
-    height: 200px;
-    width: 200px;
+#main-page-header {
+    margin-top: 0;
+    font-size: 80px;
+    font-family: 'Sacramento', cursive;
+}
+
+#main-intro {
+    font-family: 'Montserrat Alternates', sans-serif;
 }
